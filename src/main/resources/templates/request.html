@@ -41,7 +41,7 @@
 		
 		<label> Cibil score :</label>
 		<input type="range" min=1 max=999 th:field="*{cibilScore}" 
-		 oniput="this.netElementSibling.value=this.value" /><output>500</output> <br/>
+		 oninput="this.nextElementSibling.value=this.value" /><output>500</output> <br/>
 		 
 		 <label> Employment mode :</label>
 		<select th:field="*{employmentMode}">
